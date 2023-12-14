@@ -1,0 +1,191 @@
+---
+- name: Yahoo Finance
+  url: https://finance.yahoo.com
+  desc: Yahoo Finance
+  category: 
+    - 新闻
+  tag: 
+    - 英文
+    - 国外
+
+- name: MarketWatch
+  url: https://www.marketwatch.com
+  desc: MarketWatch
+  category: 
+    - 新闻
+  tag: 
+    - 英文
+    - 国外
+
+- name: Finimize
+  url: https://www.finimize.com
+  desc: Finimize
+  category: 
+    - 新闻
+  tag: 
+    - 英文
+    - 国外
+
+- name: Trading Economics
+  url: https://tradingeconomics.com
+  desc: Trading Economics
+  category: 
+    - 财经数据
+  tag: 
+    - 英文
+    - 国外
+
+- name: 金十数据
+  url: https://datacenter.jin10.com/
+  category: 
+    - 财经数据
+  desc: 金十数据
+  tag: 
+    - 中文
+    - 国内
+
+- name: TradingView
+  url: https://www.tradingview.com
+  desc: TradingView
+  category: 
+    - 看图
+  tag: 
+    - 股票
+    - 加密货币
+
+- name: BarChart
+  url: https://www.barchart.com
+  desc: BarChart
+  category: 
+    - 看图
+  tag: 
+    - 股票
+    - 期货
+
+- name: Finviz
+  url: https://finviz.com
+  desc: Finviz
+  category: 
+    - 股票
+  tag: 
+    - 筛选器
+
+- name: MacroTrends
+  url: https://www.macrotrends.net
+  desc: MacroTrends
+  category: 
+    - 股票
+  tag: 
+    - 筛选器
+    - 分析研报
+
+- name: Seeking Alpha
+  url: https://seekingalpha.com
+  desc: Seeking Alpha
+  category: 
+    - 股票
+  tag: 
+    - 筛选器
+    - 分析研报
+
+- name: Simply Wall St
+  url: https://simplywall.st
+  desc: Simply Wall St
+  category: 
+    - 股票
+  tag: 
+    - 分析研报
+
+- name: Just ETF
+  url: https://www.justetf.com
+  desc: Just ETF
+  category: 
+    - ETF
+    - 知识教学
+  tag: 
+    - 筛选器
+    - 回测工具
+
+- name: ETF.com
+  url: https://www.etf.com
+  desc: ETF.com
+  category: 
+    - ETF
+  tag: 
+    - 筛选器
+    - 对比工具
+
+- name: ETFdb
+  url: https://etfdb.com
+  desc: ETFdb
+  category: 
+    - ETF
+  tag: 
+    - 筛选器
+    - 对比工具
+
+- name: TipRanks
+  url: https://www.tipranks.com
+  desc: TipRanks
+  category: 
+    - 股票
+    - ETF
+  tag: 
+    - 筛选器
+    - 对比工具
+
+- name: Option Alpha
+  url: https://optionalpha.com
+  desc: Option Alpha
+  category: 
+    - 期权
+  tag: 
+    - 知识教学
+
+- name: OptionStrat 
+  url: https://optionstrat.com
+  desc: OptionStrat 
+  category: 
+    - 期权
+  tag: 
+    - App
+
+- name: Thinkorswim
+  url: https://www.tdameritrade.com/tools-and-platforms/thinkorswim.html
+  desc: Thinkorswim
+  category: 
+    - 期权
+    - 股票
+  tag: 
+    - App
+
+- name: IBKR
+  url: https://www.interactivebrokers.com
+  desc: IBKR 盈透证券
+  category: 
+    - 期权
+    - 股票
+  tag: 
+    - App
+  aff: https://ndcdyn.interactivebrokers.com/Universal/Application?referrerCode=li930
+  article: 
+    - name: 开户教程
+      url: https://innomad.io/ibkr-open-account
+
+- name: OKX
+  url: https://www.okx.com
+  desc: OKX
+  category: 
+    - 加密货币
+  tag: 
+    - 交易所
+    - Web3
+    - 钱包
+
+- name: Binance
+  url: https://www.binance.com
+  desc: Binance
+  category: 
+    - 加密货币
+  tag: 
+    - 交易所
