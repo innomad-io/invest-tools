@@ -1,9 +1,15 @@
-import Image from 'next/image'
+import Selector from '@/components/Selector'
+import List from '@/components/List'
 
-export default function Home() {
+export default function Category({
+  params,
+} : {
+  params: any
+}) {
   return (
     <div>
-      category
+      <Selector {...params} />
+      <List {...params} />
     </div>
   )
 }

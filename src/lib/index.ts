@@ -23,7 +23,6 @@ export function getAllCategories(): any {
     }
     return acc;
   }, []);
-  console.log(data)
 
   // remove duplicates from categories
   return [...new Set(categories)];
@@ -51,10 +50,10 @@ export function getAllTagsByCategory(category: string): any {
 /**
  * get all links by category and tag from data with loadLocalData()
  */
-export function getAllLinksByCategoryAndTag(category: string, tag: string): any {
+export function getAllLinksByCategoryAndTag(category: string, tag?: string): any {
   const data = loadLocalData();
   const links = data.reduce((acc: any[], cur: any) => {
-    if (cur.category && cur.category.includes(category) && cur.tag && cur.tag.includes(tag)) {
+    if (cur.category && cur.category.includes(category)) {
       return [
         ...acc,
         cur
@@ -62,6 +61,10 @@ export function getAllLinksByCategoryAndTag(category: string, tag: string): any 
     }
     return acc;
   }, []);
+
+  if (tag) {
+    return links.filter((link) => link.tag.includes(tag));
+  }
 
   return links;
 }

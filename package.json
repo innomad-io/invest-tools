@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/themes": "^2.0.2",
     "js-yaml": "^4.1.0",
     "next": "14.0.4",
     "react": "^18",
