@@ -11,7 +11,7 @@ export default function List(props: any) {
 
   return <div className="flex mt-4">
     {
-      links.map(async (link: any, idx: number) => {
+      links.map((link: any, idx: number) => {
         return (
           <div key={idx} className="w-60 h-30 border mr-2 bg-white p-2 border-slate-300 rounded shadow-md">
             <div className="text-slate-800 flex">
