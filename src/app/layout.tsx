@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Theme } from '@radix-ui/themes'
 
-import './globals.css'
 import '@radix-ui/themes/styles.css';
+import './globals.css';
 
 import { getAllCategories } from '@/lib'
 
@@ -31,7 +31,7 @@ export default function RootLayout({
           <div className="w-40 h-screen p-4 bg-white border-r border-gray-200">
             <div className="text-black mb-5 font-bold">分类</div>
             { 
-              categories.map((category) => (
+              categories.map((category: any) => (
                 <div key={category} className="text-sm my-3 hover:text-gray-500">
                   <Link href={`/${category}`}>{category}</Link>
                 </div>

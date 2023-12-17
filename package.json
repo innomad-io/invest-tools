@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "@radix-ui/themes": "^2.0.2",
+    "@types/metaget": "^1.0.3",
     "js-yaml": "^4.1.0",
+    "metaget": "^1.0.7",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18"

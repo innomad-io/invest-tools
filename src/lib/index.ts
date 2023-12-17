@@ -63,7 +63,7 @@ export function getAllLinksByCategoryAndTag(category: string, tag?: string): any
   }, []);
 
   if (tag) {
-    return links.filter((link) => link.tag.includes(tag));
+    return links.filter((link: any) => link.tag.includes(tag));
   }
 
   return links;
