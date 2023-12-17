@@ -52,18 +52,14 @@ export function getAllTagsByCategory(category: string): any {
  */
 export function getAllLinksByCategoryAndTag(category: string, tag?: string): any {
   const data = loadLocalData();
-  const links = data.reduce((acc: any[], cur: any) => {
-    if (cur.category && cur.category.includes(category)) {
-      return [
-        ...acc,
-        cur
-      ];
-    }
-    return acc;
-  }, []);
+  let links = [...data];
+
+  if (category) {
+    links = links.filter((link: any) => link.category.includes(decodeURIComponent(category)));
+  }
 
   if (tag) {
-    return links.filter((link: any) => link.tag.includes(tag));
+    links = links.filter((link: any) => link.tag.includes(decodeURIComponent(tag)));
   }
 
   return links;

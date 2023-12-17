@@ -6,8 +6,7 @@ import { getAllLinksByCategoryAndTag } from "@/lib";
 export default function List(props: any) {
   const { category, tag } = props;
 
-  const links = getAllLinksByCategoryAndTag(decodeURIComponent(category), tag);
-  console.log(links)
+  const links = getAllLinksByCategoryAndTag(category, tag);
 
   return <div className="flex mt-4 flex-wrap">
     {
@@ -28,7 +27,7 @@ export default function List(props: any) {
             <div className="flex justify-end">
               {
                 link.aff && (
-                  <a href={link.url} rel="noopener noreferrer" target='_blank' className="mr-2">
+                  <a href={link.aff} rel="noopener noreferrer" target='_blank' className="mr-2">
                     <Button variant="surface" size="1" color="crimson" className="rounded-md">邀请链接</Button>
                   </a>
                 )

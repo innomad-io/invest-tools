@@ -1,9 +1,15 @@
-import Image from 'next/image'
+import List from "@/components/List"
+import Selector from "@/components/Selector"
 
-export default function Home() {
+export default function TagPage({
+  params,
+}: {
+  params: any
+}) {
   return (
     <div>
-      tag
+      <Selector {...params} />
+      <List {...params} />
     </div>
   )
 }
