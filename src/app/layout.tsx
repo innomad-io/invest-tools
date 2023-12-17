@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Theme } from '@radix-ui/themes'
 
+import { PaperAirplaneIcon } from '@heroicons/react/24/outline'
+
 import '@radix-ui/themes/styles.css';
 import './globals.css';
 
@@ -25,7 +27,12 @@ export default function RootLayout({
         <Theme>
         <div className="flex flex-row h-screen">
           <div className="w-12 h-screen bg-slate-800">
-
+            <div className="text-white">Logo</div>
+            <div className="mt-6">
+              <Link href="/" className="py-1 text-slate-200 hover:bg-slate-700 hover:text-slate-50 transition-all duration-100">
+                <PaperAirplaneIcon className="w-5 h-5 mx-auto" />
+              </Link>
+            </div>
           </div>
 
           <div className="w-40 h-screen p-4 bg-white border-r border-gray-200">

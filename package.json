@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.18",
     "@radix-ui/themes": "^2.0.2",
     "@types/metaget": "^1.0.3",
     "js-yaml": "^4.1.0",
