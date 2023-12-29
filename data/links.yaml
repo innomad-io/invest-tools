@@ -6,7 +6,6 @@
     - 新闻
   tag: 
     - 英文
-    - 国外
 
 - name: MarketWatch
   url: https://www.marketwatch.com
@@ -15,7 +14,6 @@
     - 新闻
   tag: 
     - 英文
-    - 国外
 
 - name: Finimize
   url: https://www.finimize.com
@@ -24,7 +22,6 @@
     - 新闻
   tag: 
     - 英文
-    - 国外
 
 - name: Trading Economics
   url: https://tradingeconomics.com
@@ -32,7 +29,6 @@
   category: 
     - 财经数据
   tag: 
-    - 英文
     - 国外
 
 - name: 金十数据
@@ -41,7 +37,6 @@
     - 财经数据
   desc: 金十数据
   tag: 
-    - 中文
     - 国内
 
 - name: TradingView
