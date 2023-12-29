@@ -1,7 +1,8 @@
 ---
 - name: Yahoo Finance
   url: https://finance.yahoo.com
-  desc: Yahoo Finance
+  icon: https://s.yimg.com/cv/apiv2/default/icons/favicon_y19_32x32_custom.svg
+  desc: Stock Market Live, Quotes, Business & Finance News
   category: 
     - 新闻
   tag: 
@@ -9,7 +10,8 @@
 
 - name: MarketWatch
   url: https://www.marketwatch.com
-  desc: MarketWatch
+  icon: https://mw4.wsj.net/mw5/content/images/favicons/apple-touch-icon.png
+  desc: Stock Market News - Financial News
   category: 
     - 新闻
   tag: 
@@ -17,14 +19,18 @@
 
 - name: Finimize
   url: https://www.finimize.com
-  desc: Finimize
+  icon: https://finimize.com/images/AppIcons/apple-touch-icon.png
+  desc: 财经新闻、股票分析、投资教育
   category: 
     - 新闻
+    - 股票
   tag: 
     - 英文
+    - 知识教学
 
 - name: Trading Economics
   url: https://tradingeconomics.com
+  icon: https://tradingeconomics.com/favicon.ico
   desc: Trading Economics
   category: 
     - 财经数据
@@ -33,15 +39,17 @@
 
 - name: 金十数据
   url: https://datacenter.jin10.com/
+  icon: https://cdn.jin10.com/assets/img/commons/favicon.ico
   category: 
     - 财经数据
-  desc: 金十数据
+  desc: 金十数据，中文财经数据
   tag: 
     - 国内
 
 - name: TradingView
   url: https://www.tradingview.com
-  desc: TradingView
+  icon: https://static.tradingview.com/static/images/favicon/apple-touch-icon-180x180.png
+  desc: 美股、外汇、加密货币看图工具
   category: 
     - 看图
   tag: 
@@ -50,7 +58,8 @@
 
 - name: BarChart
   url: https://www.barchart.com
-  desc: BarChart
+  icon: https://assets.barchart.com/favicon.ico
+  desc: 美股、期货看图工具
   category: 
     - 看图
   tag: 
@@ -59,7 +68,8 @@
 
 - name: Finviz
   url: https://finviz.com
-  desc: Finviz
+  icon: https://finviz.com/favicon_2x.png
+  desc: 老牌的美股股票筛选器
   category: 
     - 股票
   tag: 
@@ -67,7 +77,8 @@
 
 - name: MacroTrends
   url: https://www.macrotrends.net
-  desc: MacroTrends
+  icon: https://www.macrotrends.net/assets/images/icons/FAVICON/macrotrends-favicon.ico
+  desc: 高质量的历史数据，包括股票、债券等
   category: 
     - 股票
   tag: 
@@ -76,7 +87,8 @@
 
 - name: Seeking Alpha
   url: https://seekingalpha.com
-  desc: Seeking Alpha
+  icon: https://seekingalpha.com/samw/static/images/apple-touch-icon.png
+  desc: 老牌美股股票分析工具
   category: 
     - 股票
   tag: 
@@ -85,7 +97,8 @@
 
 - name: Simply Wall St
   url: https://simplywall.st
-  desc: Simply Wall St
+  icon: https://assets-global.website-files.com/648009cb318551f1806b36b4/6487e4bd5b63a6818cb5c697_Favicon.png
+  desc: 分析研报
   category: 
     - 股票
   tag: 
@@ -93,6 +106,7 @@
 
 - name: Just ETF
   url: https://www.justetf.com
+  icon: https://www.justetf.com/favicon.ico
   desc: Just ETF
   category: 
     - ETF
@@ -103,6 +117,7 @@
 
 - name: ETF.com
   url: https://www.etf.com
+  icon: https://www.etf.com/sites/default/files/favicon_etfcom.ico
   desc: ETF.com
   category: 
     - ETF
