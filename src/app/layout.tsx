@@ -37,15 +37,15 @@ export default function RootLayout({
             <div className="py-2 text-center text-white">
               <Image
                 className="inline-block"
-                width={32}
-                height={32}
+                width={24}
+                height={24}
                 src="https://innomad.io/favicon.png"
                 alt="投资工具箱 - by Innomad"
               />
             </div>
             <div className="mt-6">
               <Tooltip content="投资网址导航" side="right">
-                <Link href="/" className="py-1 text-slate-200 hover:bg-slate-600 hover:text-slate-50 transition-all duration-100">
+                <Link href="/" className="block py-1 text-slate-200 bg-slate-600 hover:bg-slate-600 hover:text-slate-50 transition-all duration-100">
                   <PaperAirplaneIcon className="w-5 h-5 mx-auto" />
                 </Link>
               </Tooltip>

@@ -20,6 +20,9 @@ dependencies:
   js-yaml:
     specifier: ^4.1.0
     version: 4.1.0
+  longport:
+    specifier: ^1.0.5
+    version: 1.0.5
   metaget:
     specifier: ^1.0.7
     version: 1.0.7
@@ -3093,6 +3096,53 @@ packages:
   /lodash.merge@4.6.2:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
     dev: true
+
+  /longport-darwin-arm64@1.0.5:
+    resolution: {integrity: sha512-cwjiesXkSvT9PNL2prIsj0AKKRsV8y5orHR4Qtspng3zJs/MV6g0EWOHLcglkmlOKGl8Unqfr3T/QrjigMWSiw==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /longport-darwin-x64@1.0.5:
+    resolution: {integrity: sha512-9EGJerDDh52DIYdpFTObzjC1BKcdVVkgYdfurpxOwtQenLna9pCdpszFh4H09PzjBloVqjBMZ01E+IYjTN6F8Q==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /longport-linux-x64-gnu@1.0.5:
+    resolution: {integrity: sha512-/6Z3ye/kMh4kdM1uq5nEBzfIs9+h88dNyBnubUBqurwsc/uL1pXafRp4jz98cGiwYM6XbTQGVpFblkyM+fO5ag==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [linux]
+    libc: [glibc]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /longport-win32-x64-msvc@1.0.5:
+    resolution: {integrity: sha512-V0097HkS2viAUlirAc8XRn5OoZudLlY5U1PRC0A9BAI2pVK7GMlKTN9WFuHFvNfGmkWJkLyF89vZXEuChjlh1g==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /longport@1.0.5:
+    resolution: {integrity: sha512-GplqHu1wL82l6DGEwkVdRmrEeSNh92DNf2T5gWpwctvZdJF0MpMFskZwPGzSzBeizvvZJukMssk+2ZsFVZUzFA==}
+    engines: {node: '>= 10'}
+    optionalDependencies:
+      longport-darwin-arm64: 1.0.5
+      longport-darwin-x64: 1.0.5
+      longport-linux-x64-gnu: 1.0.5
+      longport-win32-x64-msvc: 1.0.5
+    dev: false
 
   /loose-envify@1.4.0:
     resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
