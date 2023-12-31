@@ -14,6 +14,9 @@ import './globals.css';
 export const metadata: Metadata = {
   title: '投资工具箱',
   description: '投资工具箱 by Innomad',
+  icons: {
+    icon: 'https://innomad.io/favicon.png'
+  }
 }
 
 export default function RootLayout({
@@ -70,7 +73,7 @@ export default function RootLayout({
 
           <div className="fixed top-3 right-6 z-10">
             <a href="https://afdian.net/a/innomad" target="_blank" rel="noopener noreferrer" >
-              <Button size="3" color="crimson" variant="soft"><HeartIcon className="w-5 h-5" /> Sponsor</Button>
+              <Button size="3" color="crimson" variant="soft"><HeartIcon className="w-5 h-5" />赞赏作者</Button>
             </a>
           </div>
         </div>

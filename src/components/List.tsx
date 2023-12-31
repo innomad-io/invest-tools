@@ -12,7 +12,7 @@ export default function List(props: any) {
     {
       links.map((link: any, idx: number) => {
         return (
-          <div key={idx} className="flex flex-col justify-between w-60 h-32 border mr-3 my-2 bg-white p-2 border-slate-300 rounded shadow-md transition-shadow duration-200 hover:shadow-xl">
+          <div key={idx} className="flex flex-col justify-between w-60 h-32 border mr-3 my-2 bg-white p-2 border-slate-300 rounded shadow-md transition-shadow duration-200 hover:shadow-xl hover:bg-sky-50">
             <div>
             <div className="text-slate-800 flex">
               <Image

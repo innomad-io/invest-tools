@@ -8,6 +8,15 @@
   tag: 
     - 英文
 
+- name: Investing.com
+  url: https://www.investing.com
+  icon: https://www.investing.com/favicon.ico
+  desc: 综合性财经网站
+  category: 
+    - 新闻
+  tag: 
+    - 英文
+
 - name: MarketWatch
   url: https://www.marketwatch.com
   icon: https://mw4.wsj.net/mw5/content/images/favicons/apple-touch-icon.png
@@ -24,8 +33,7 @@
   category: 
     - 新闻
     - 股票
-  tag: 
-    - 英文
+  tag:
     - 知识教学
 
 - name: Trading Economics
@@ -104,6 +112,38 @@
   tag: 
     - 分析研报
 
+- name: Unusual Whales 财报日历
+  url: https://unusualwhales.com/earnings
+  icon: https://unusualwhales.com/favicon.ico
+  desc: 美股财报日历
+  category: 
+    - 股票
+  tag: 
+    - 财报
+
+- name: 老虎证券
+  url: https://www.itiger.com
+  aff: https://innomad.io/tiger-broker
+  desc: 老虎证券，可开香港、澳大利亚、新加坡、美国账户
+  category: 
+    - 股票
+    - ETF
+    - 期权
+  tag:
+    - 券商
+
+- name: 长桥证券
+  url: https://www.longbridge.hk
+  aff: https://link.longbridge.cn/KOudEB?channel=HB100032&invite-code=NEPM3T
+  icon: https://pub.lbkrs.com/files/202107/35tULHe3n4Pp4EtA/logo.png
+  desc: 长桥证券(香港)，美股、港股终生免佣
+  category:
+    - 股票
+    - ETF
+    - 期权
+  tag:
+    - 券商
+
 - name: Just ETF
   url: https://www.justetf.com
   icon: https://www.justetf.com/favicon.ico
@@ -117,7 +157,6 @@
 
 - name: ETF.com
   url: https://www.etf.com
-  icon: https://www.etf.com/sites/default/files/favicon_etfcom.ico
   desc: ETF.com
   category: 
     - ETF
@@ -175,8 +214,9 @@
   category: 
     - 期权
     - 股票
+    - ETF
   tag: 
-    - App
+    - 券商
   aff: https://ndcdyn.interactivebrokers.com/Universal/Application?referrerCode=li930
   article: 
     - name: 开户教程
@@ -199,3 +239,11 @@
     - 加密货币
   tag: 
     - 交易所
+
+- name: Open Sea
+  url: https://opensea.io
+  desc: NFT 发行平台
+  category: 
+    - 加密货币
+  tag: 
+    - Web3
