@@ -35,7 +35,6 @@ export default function RootLayout({
         async
         defer
         data-website-id={process.env?.UMAMI_WEBSITE_ID}
-        data-domains={process.env?.UMAMI_DOMAINS}
         src={process.env?.UMAMI_URL}
       />
 
