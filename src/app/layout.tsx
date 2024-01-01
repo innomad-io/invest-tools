@@ -16,7 +16,8 @@ export const metadata: Metadata = {
   title: '投资工具箱',
   description: '投资工具箱 by Innomad',
   icons: {
-    icon: 'https://innomad.io/favicon.png'
+    icon: 'https://innomad.io/favicon.png',
+    shortcut: 'https://innomad.io/favicon.png',
   }
 }
 
