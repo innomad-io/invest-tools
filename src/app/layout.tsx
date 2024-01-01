@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
+import Script from 'next/script'
 import { Theme, Tooltip, Button } from '@radix-ui/themes'
 
 import { PaperAirplaneIcon } from '@heroicons/react/24/outline'
@@ -30,6 +31,14 @@ export default function RootLayout({
 
   return (
     <html lang="en">
+      <Script
+        async
+        defer
+        data-website-id={process.env?.UMAMI_WEBSITE_ID}
+        data-domains={process.env?.UMAMI_DOMAINS}
+        src={process.env?.UMAMI_URL}
+      />
+
       <body>
         <Theme>
         <div className="flex flex-row h-screen relative z-0">
