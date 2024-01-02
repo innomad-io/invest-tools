@@ -121,6 +121,14 @@
   tag: 
     - 财报
 
+- name: Stockcircle
+  url: https://stockcircle.com/
+  desc: 跟踪投资大佬的持仓，比如巴菲特、木头姐等
+  category: 
+    - 股票
+  tag: 
+    - 其他
+
 - name: 老虎证券
   url: https://www.itiger.com
   aff: https://innomad.io/tiger-broker
@@ -150,7 +158,6 @@
   desc: Just ETF
   category: 
     - ETF
-    - 知识教学
   tag: 
     - 筛选器
     - 回测工具
