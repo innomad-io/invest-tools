@@ -7,6 +7,8 @@ import { Theme, Tooltip, Button } from '@radix-ui/themes'
 import { PaperAirplaneIcon } from '@heroicons/react/24/outline'
 import { HeartIcon } from '@heroicons/react/24/solid'
 
+import Sponsor from '@/components/Sponsor'
+
 import '@radix-ui/themes/styles.css';
 import './globals.css';
 
@@ -81,9 +83,8 @@ export default function RootLayout({
           </div>
 
           <div className="fixed top-3 right-6 z-10">
-            <a href="https://afdian.net/a/innomad" target="_blank" rel="noopener noreferrer" >
-              <Button size="3" color="crimson" variant="soft"><HeartIcon className="w-5 h-5" />赞赏作者</Button>
-            </a>
+            <Sponsor />
+            
           </div>
         </div>
         </Theme>
